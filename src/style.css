@@ -40,6 +40,13 @@ form {
     padding: 14px 25px;
 }
 
+.poem {
+    font-size: 17px;
+    padding: 20px;
+    line-height: 25px;
+
+}
+
 input:focus {
     outline: none;
     border: 2px solid #F03E7B;
@@ -48,7 +55,7 @@ input:focus {
 
 
 footer {
-    color: #ad949a;
+    color: #b38d95;
     line-height: 75px;
     text-align: center;
 }
