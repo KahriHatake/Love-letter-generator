@@ -5,6 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Letters</title>
@@ -14,17 +15,11 @@
     <div class="container">
     <main>
         <h1> Welcome to Love Lines Ai</h1>
-        <form>
+        <form id="poem-generator-form">
             <input type="text"placeholder="Enter the topic ..." autofocus required autocomplete="off" class="form-input" />
             <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-        Dear Darla,<br />
-        I hate your stinking guts<br />
-        You make me vomit <br />
-        You're scum between my toes <br />
-        Love, Alfalfa
-        </div>
+        <div class="poem" id="poem"></div>
         </main>
     <footer>
         This was coded by <a href="https://github.com/KahriHatake" target="_blank">Kari🌸</a> and is open-sourced on <a href="https://github.com/KahriHatake/Love-letter-generator" target="_blank">GitHub</a> and is hosted on <a href="https://grand-choux-43b644.netlify.app/" target="_blank">netlify</a>
@@ -35,4 +30,4 @@
    <script src="src/index.js"></script>
     
 </body>
-</html> 
+</html>

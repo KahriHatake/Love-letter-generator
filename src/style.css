@@ -52,7 +52,7 @@ form {
     font-family: "Shadows Into Light", cursive;
     font-size: 29px;
     line-height: 39px;
-    font-weight: 800px;
+    font-weight: 800;
 }
 
 input:focus {
