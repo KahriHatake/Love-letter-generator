@@ -16,10 +16,19 @@ body {
 }
 
 form {
-    padding: 30px;
+    padding: 1px;
     border-radius: 10px;
     display: flex;
     font-family: "Shadows Into Light", cursive;
+}
+
+.hint {
+   line-height: 1.5;
+   margin-top: 5px;
+    margin-left: 50px;
+    font-size: 12px;
+    color: #5B5E8B;
+    opacity: 0.8;
 }
 
 .form-input {
@@ -67,6 +76,7 @@ footer {
     color: #b38d95;
     line-height: 75px;
     text-align: center;
+    font-size: 13px;
 }
 
 
@@ -76,7 +86,31 @@ a {
 
 h1 {
     text-align: center;
-  font-family: "pacifico", cursive;
-  font-weight: 800;
-  font-size: 40px;
+    font-family: "pacifico", cursive;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 30px;
+}
+
+.form-container {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    padding: 30px;
+}
+
+.blink {
+animation: blink-animation 1.2s steps(5, start) infinite;
+}
+
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }

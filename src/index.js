@@ -21,6 +21,9 @@ function generatePoem(event) {
   let context = `let context = "You are a poem-writing expert who generates heartfelt short poems. Return a 10 line poem that rhymes using simple <br> tags for new lines. Do not wrap the output in <html> or <body> tags. Only return the poem.`;
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   
+  let poemElement = document.querySelector("#poem");
+  poemElement.innerHTML = `<span class="blink">⏳</span> Generating poem...`;
+
   console.log("Generating poem...");
   console.log(`Prompt: ${prompt}`);
   console.log(`context: ${context}`);
